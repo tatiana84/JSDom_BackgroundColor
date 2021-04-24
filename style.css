@@ -1,0 +1,38 @@
+body {
+    background-image: url("./images/img1.png.png");
+    margin: 0px;
+}
+
+.container {
+    height: 90vh;
+    position: relative;
+}
+
+button {
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 5px 10px gray;
+    border-radius: 25px;
+    max-width: 250px;
+    width: 50%;
+
+
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    right: 0;
+    left: 500px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+button:hover {
+    background-color: lavender;
+}
